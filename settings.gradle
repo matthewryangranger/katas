@@ -12,3 +12,6 @@ plugins {
 
 rootProject.name = 'katas'
 include('app', 'list', 'utilities')
+include 'app:fizzbuzz'
+findProject(':app:fizzbuzz')?.name = 'fizzbuzz'
+
