@@ -9,8 +9,8 @@ Working with Test Driven Development and using a CI/CD pipeline (via pushing to 
 
 ## Resources
 
-- Will add as I go. 
+- Emily Bache 'Red Green Refactor' | [Link](https://www.youtube.com/watch?v=lIRF8MgyXho)
 
 ## Featured Coding Katas
 
-- Add as I go
+- Fizzbuzz TDD
