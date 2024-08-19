@@ -12,7 +12,6 @@ public class FizzBuzzTest {
         FizzBuzz unit = new FizzBuzz();
         // Act
         Integer one = 1;
-
         // Assert
         assertEquals("1", unit.convert(one));
     }
@@ -23,7 +22,6 @@ public class FizzBuzzTest {
         FizzBuzz unit = new FizzBuzz();
         // Act
         Integer two = 2;
-
         // Assert
         assertEquals("2", unit.convert(two));
     }
@@ -34,8 +32,17 @@ public class FizzBuzzTest {
         FizzBuzz unit = new FizzBuzz();
         // Act
         Integer three = 3;
-
         // Assert
         assertEquals("Fizz", unit.convert(three));
+    }
+
+    @Test
+    public void testFizzBuzzClassToConvertMultiplesIntThreeToFizz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        Integer six = 6;
+        // Assert
+        assertEquals("Fizz", unit.convert(six));
     }
 }
