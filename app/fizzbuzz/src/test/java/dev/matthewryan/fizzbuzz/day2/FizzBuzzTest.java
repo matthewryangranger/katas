@@ -45,4 +45,24 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("Fizz", unit.convert(six));
     }
+
+    @Test
+    public void testFizzBuzzClassToConvertIntFourToFour() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        Integer four = 4;
+        // Assert
+        assertEquals("4", unit.convert(four));
+    }
+
+    @Test
+    public void testFizzBuzzClassToConvertIntFiveToBuzz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        Integer five = 5;
+        // Assert
+        assertEquals("Buzz", unit.convert(five));
+    }
 }
