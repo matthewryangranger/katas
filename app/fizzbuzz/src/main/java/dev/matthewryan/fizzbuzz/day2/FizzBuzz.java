@@ -3,7 +3,7 @@ package dev.matthewryan.fizzbuzz.day2;
 public class FizzBuzz {
 
     public String convert(Integer value) {
-        if (value % 3 == 0) {
+        if (value % 15 == 0) {
             return "FizzBuzz";
         }
         if (value % 3 == 0) {
