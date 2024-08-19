@@ -1,4 +1,4 @@
-package com.matthewryanconsulting.fizzbuzz;
+package com.matthewryanconsulting.fizzbuzz.day1;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

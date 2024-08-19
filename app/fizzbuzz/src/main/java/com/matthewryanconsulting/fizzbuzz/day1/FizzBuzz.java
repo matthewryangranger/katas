@@ -1,4 +1,4 @@
-package com.matthewryanconsulting.fizzbuzz;
+package com.matthewryanconsulting.fizzbuzz.day1;
 
 public class FizzBuzz {
 
