@@ -86,5 +86,15 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", unit.convert(fifteen));
     }
 
+    @Test
+    public void testFizzBuzzClassToConvertMultiplesFifteenToFizzBuzz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        Integer thirty = 30;
+        // Assert
+        assertEquals("FizzBuzz", unit.convert(thirty));
+    }
+
 
 }
