@@ -40,4 +40,12 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("Fizz", unit.convert(three));
     }
+
+    @Test
+    public void testIntegerMultiplesOfThreeConversion() {
+        // Act
+        int six = 6;
+        // Assert
+        assertEquals("Fizz", unit.convert(six));
+    }
 }
