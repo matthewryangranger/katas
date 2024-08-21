@@ -48,4 +48,12 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("Fizz", unit.convert(six));
     }
+
+    @Test
+    public void testIntegerFiveConversion() {
+        // Act
+        int five = 5;
+        // Assert
+        assertEquals("Buzz", unit.convert(five));
+    }
 }
