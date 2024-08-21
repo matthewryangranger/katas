@@ -95,6 +95,4 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("FizzBuzz", unit.convert(thirty));
     }
-
-
 }
