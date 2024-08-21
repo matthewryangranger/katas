@@ -3,8 +3,6 @@ package dev.matthewryan.fizzbuzz.day3;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.TimeUnit;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
@@ -71,5 +69,13 @@ public class FizzBuzzTest {
         int fifteen = 15;
         // Assert
         assertEquals("FizzBuzz", unit.convert(fifteen));
+    }
+
+    @Test
+    public void testIntegerMultiplesOfFifteenConversion() {
+        // Act
+        int thirty = 30;
+        // Assert
+        assertEquals("FizzBuzz", unit.convert(thirty));
     }
 }
