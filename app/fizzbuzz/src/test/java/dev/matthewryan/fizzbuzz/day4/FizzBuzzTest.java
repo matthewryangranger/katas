@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTest {
 
     @Test
-    public void testConvertIntegerOnetoStringOne() {
+    public void testConvertIntegerOneToStringOne() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
@@ -17,7 +17,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertIntegerTwotoStringTwo() {
+    public void testConvertIntegerTwoToStringTwo() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
@@ -27,7 +27,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertIntegerThreetoStringFizz() {
+    public void testConvertIntegerThreeToStringFizz() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
@@ -37,7 +37,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertMultiplesOfIntegerThreetoStringFizz() {
+    public void testConvertMultiplesOfIntegerThreeToStringFizz() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
@@ -47,7 +47,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertIntegerFivetoStringBuzz() {
+    public void testConvertIntegerFiveToStringBuzz() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
@@ -57,12 +57,22 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertMultiplesOfIntegerFivetoStringBuzz() {
+    public void testConvertMultiplesOfIntegerFiveToStringBuzz() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
         Integer ten = 10;
         // Assert
         assertEquals("Buzz", unit.convert(ten));
+    }
+
+    @Test
+    public void testConvertIntegerFifteenToStringFizzBuzz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        Integer fifteen = 15;
+        // Assert
+        assertEquals("FizzBuzz", unit.convert(fifteen));
     }
 }
