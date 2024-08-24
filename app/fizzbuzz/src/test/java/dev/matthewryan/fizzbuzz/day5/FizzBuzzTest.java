@@ -15,4 +15,14 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("1", unit.convert(one));
     }
+
+    @Test
+    public void testConvertTwoToStringTwo() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        int two = 2;
+        // Assert
+        assertEquals("2", unit.convert(two));
+    }
 }
