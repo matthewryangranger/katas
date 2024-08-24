@@ -27,12 +27,22 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testConvertThreeToStringThree() {
+    public void testConvertThreeToStringFizz() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
         int three = 3;
         // Assert
         assertEquals("Fizz", unit.convert(three));
+    }
+
+    @Test
+    public void testConvertMultiplesOfThreeToStringFizz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        int six = 6;
+        // Assert
+        assertEquals("Fizz", unit.convert(six));
     }
 }
