@@ -25,4 +25,14 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("2", unit.convert(two));
     }
+
+    @Test
+    public void testConvertThreeToStringThree() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        int three = 3;
+        // Assert
+        assertEquals("Fizz", unit.convert(three));
+    }
 }
