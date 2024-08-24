@@ -1,15 +1,21 @@
 package dev.matthewryan.fizzbuzz.day5;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
 
+    private FizzBuzz unit;
+
+    @BeforeEach
+    public void setup() {
+        // Arrange
+        unit = new FizzBuzz();
+    }
     @Test
     public void testConvertOneToStringOne() {
-        // Arrange
-        FizzBuzz unit = new FizzBuzz();
         // Act
         int one = 1;
         // Assert
@@ -18,8 +24,6 @@ public class FizzBuzzTest {
 
     @Test
     public void testConvertTwoToStringTwo() {
-        // Arrange
-        FizzBuzz unit = new FizzBuzz();
         // Act
         int two = 2;
         // Assert
@@ -28,8 +32,6 @@ public class FizzBuzzTest {
 
     @Test
     public void testConvertThreeToStringFizz() {
-        // Arrange
-        FizzBuzz unit = new FizzBuzz();
         // Act
         int three = 3;
         // Assert
@@ -38,8 +40,6 @@ public class FizzBuzzTest {
 
     @Test
     public void testConvertMultiplesOfThreeToStringFizz() {
-        // Arrange
-        FizzBuzz unit = new FizzBuzz();
         // Act
         int six = 6;
         // Assert
