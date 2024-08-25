@@ -16,12 +16,22 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testFizzBuzzClassToConvertIntTw0ToStringTwo() {
+    public void testFizzBuzzClassToConvertIntTwoToStringTwo() {
         // Arrange
         FizzBuzz unit = new FizzBuzz();
         // Act
         int two = 2;
         // Assert
         assertEquals("2", unit.convert(two));
+    }
+
+    @Test
+    public void testFizzBuzzClassToConvertIntThreeToStringFizz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        int three = 3;
+        // Assert
+        assertEquals("Fizz", unit.convert(three));
     }
 }
