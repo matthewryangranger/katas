@@ -34,4 +34,14 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("Fizz", unit.convert(three));
     }
+
+    @Test
+    public void testFizzBuzzClassToConvertMultiplesOfThreeToStringFizz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        int six = 6;
+        // Assert
+        assertEquals("Fizz", unit.convert(six));
+    }
 }
