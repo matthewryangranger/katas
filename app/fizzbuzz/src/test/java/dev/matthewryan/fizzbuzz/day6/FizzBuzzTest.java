@@ -64,4 +64,14 @@ public class FizzBuzzTest {
         // Assert
         assertEquals("Buzz", unit.convert(ten));
     }
+
+    @Test
+    public void testFizzBuzzClassToConvertIntFifteenToStringFizzBuzz() {
+        // Arrange
+        FizzBuzz unit = new FizzBuzz();
+        // Act
+        int fifteen = 15;
+        // Assert
+        assertEquals("FizzBuzz", unit.convert(fifteen));
+    }
 }
